@@ -21,22 +21,4 @@ Tools: **Excel** (pivot tables, correlation analysis) + **Power BI** (data query
 
 ---
 
-## 🔎 Repo Structure
 
-- `data/` – Source Excel workbook (`OSHA_Workplace_Safety.xlsx`)  
-- `powerbi/` – Power BI Desktop file (`.pbix`)  
-- `documentation/`  
-  - **Data_Model_Specs.md** – Data tables, column definitions, calculation logic  
-  - **Visual_Descriptions.md** – Purpose & design choices for each chart  
-  - **data-flow-diagram.png** – Workflow diagram (Excel → Power BI)  
-- `screenshots/` – Static & animated previews of key visuals  
-- `.gitignore` – Ignore temp/backups (e.g. `~$*.xlsx`, `*.pbix.bak`)  
-
----
-
-## 🚀 Getting Started
-
-1. **Clone**:  
-   ```bash
-   git clone https://github.com/<you>/workplace-safety-eda.git
-   cd workplace-safety-eda
